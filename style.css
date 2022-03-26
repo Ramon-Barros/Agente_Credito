@@ -4,12 +4,30 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
 
 .cabecalho-img{
-
+    height: 75px;    
 }
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #284564 16.62%, #11766d 75.61% );
+    background-image: linear-gradient(to right, #2d6073, #3b7986, #4f9397, 
+    #68aca6, #86c6b3, #86c6b3, #86c6b3, #86c6b3, #68aca6, #4f9397, #3b7986, #2d6073);
 }
