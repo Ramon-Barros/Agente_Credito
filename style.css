@@ -23,11 +23,31 @@
 
 .cabecalho-menu-item{
     font-family: 'Montserrat', sans-serif;
+    color: #fff2ef;
 }
 
-
+.conteudo-principal{
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+}
+.conteudo-principal-esq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ecd6c4;
+}
+.conteudo-principal-dir{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ecd6c4;
+    display: flex;
+    flex-direction: column;
+}
 body{
     font-size: 100%;
-    background-image: linear-gradient(to right, #2d6073, #3b7986, #4f9397, 
-    #68aca6, #86c6b3, #86c6b3, #86c6b3, #86c6b3, #68aca6, #4f9397, #3b7986, #2d6073);
+    background-image:linear-gradient(to right, #3d6868, #39676a, #35656c,
+     #31646e, #2f6270, #2f6270, #2f6270, #2f6270, #31646e, #35656c,
+      #39676a, #3d6868);
 }
