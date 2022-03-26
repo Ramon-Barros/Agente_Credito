@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho-img{
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #284564 16.62%, #11766d 75.61% );
+}
